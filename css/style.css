@@ -3,25 +3,70 @@ header {
 
 }
 
+footer {
+    height: 70px;
+
+}
+
 .row {
     height: 100%;
 }
 
 [class^="col"] {
-    height: 100%;
-    /* background-color: rgb(255, 4, 4); */
-    border: 2px dashed white;
+    height: 50%;
 }
 
 /* section {
     min-height: 500px;
-} */
-
+}
+*/
 img {
-    width: 300px;
+    width: 250px;
 
 }
 
-.portfoglio {
-    width: 350px;
+.bi.bi-list {
+    border: 1px solid white;
+    display: block;
+
+}
+
+#contacts input {
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+}
+
+#contacts textarea {
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+}
+
+#contacts ::placeholder {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(44, 62, 80);
+}
+
+/**** colors ****/
+.bg-cust-primary {
+    background-color: rgb(44, 62, 80);
+}
+
+.bg-cust-blue {
+    background-color: rgb(58, 84, 109);
+}
+
+.bg-cust-success,
+.btn-cust-success {
+    background-color: rgb(26, 188, 156);
+    color: white;
+}
+
+.bg-cust-dark-blue {
+    background-color: rgb(44, 62, 80);
+    color: white;
+}
+
+footer p {
+    margin-bottom: 0;
 }
